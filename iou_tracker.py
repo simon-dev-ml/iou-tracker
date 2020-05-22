@@ -7,7 +7,7 @@
 
 from time import time
 
-from util import load_mot, iou
+from iou_util import load_mot, iou
 
 
 def track_iou(detections, sigma_l, sigma_h, sigma_iou, t_min):
